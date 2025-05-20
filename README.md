@@ -1,4 +1,4 @@
-There are 2 csv files with the matched link numbers.. One represents the hydrobasins with with a unique link number and the other represents hydrobasins that have multiple link number outlets. There is one netcdf file to go with each of these. Then there is one python script that goes with each of these.
+There are 2 csv files with the matched link numbers.. One represents the hydrobasins with with a unique link number and the other represents hydrobasins that have multiple link number outlets. There is one netcdf file to go with each of these. Then there is one python script that goes with each of these. These are the compute_day_month_combo.py (this is for the unique link numbers) and compute_day_month_combo_hybas.py (which is for the multiple outlets).
 
 Once you have gotten a csv file out of each python script then you can run the combine script. That will output a singuar shapefile for each month.
 
